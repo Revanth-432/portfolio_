@@ -3,22 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Personal Portfolio">
-    <title>My Portfolio</title>
+    <meta name="description" content="Aluvala Revanth - Portfolio">
+    <title>Aluvala Revanth | Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
     <header class="header">
         <nav class="nav-container">
-            <a href="#" class="logo">Port<span>folio</span></a>
+            <a href="#" class="logo">A<span>.</span>R<span>.</span></a>
             <ul class="nav-links">
                 <li><a href="#about">About</a></li>
                 <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
+                <li><a href="#projects">Work</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
             <div class="actions">
@@ -35,55 +35,57 @@
     <main>
         <section id="hero" class="hero section">
             <div class="container">
-                <p class="greeting">Hi, I'm</p>
-                <h1 class="name">Aluvala Revanth</h1>
-                <p class="pitch">I'm an Information Technology student and developer passionate about building full-stack applications and AI platforms.</p>
+                <p class="greeting">Information Technology Student</p>
+                <h1 class="name">Aluvala<br>Revanth.</h1>
+                <p class="pitch">I engineer full-stack applications and AI-driven platforms, focusing on robust architectures and seamless digital experiences.</p>
                 <div class="hero-cta">
-                    <a href="#projects" class="btn btn-primary">View My Work</a>
-                    <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                    <a href="#projects" class="btn btn-primary">Selected Work</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
                 </div>
             </div>
         </section>
 
         <section id="about" class="about section">
             <div class="container">
-                <h2 class="section-title">About Me</h2>
+                <h2 class="section-title">Background</h2>
                 <div class="about-content">
-                    <div class="about-text">
-                        <p>Hello! I'm Aluvala Revanth, an Information Technology student at VNR Vignana Jyothi Institute of Engineering & Technology. I have a strong foundation in Data Structures and Algorithms (400+ LeetCode problems) and enjoy building full-stack and mobile applications.</p>
-                        <p>I have experience working with modern technologies like React.js, Node.js, Next.js, and databases like PostgreSQL and MongoDB. Recently, I interned at VJStartups where I developed a gamified financial-literacy mobile application.</p>
-                    </div>
+                    <p>I'm an IT student at VNR Vignana Jyothi Institute of Engineering & Technology, building solutions that bridge modern engineering with intuitive design.</p>
+                    <p>My technical foundation is rooted in rigorous problem-solving (400+ LeetCode problems, CodeChef 2-Star). Recently, I interned at VJStartups where I developed <em>FinIQ</em>, a gamified financial-literacy mobile app driven by a scalable JSON architecture on Supabase.</p>
                 </div>
             </div>
         </section>
 
         <section id="skills" class="skills section">
             <div class="container">
-                <h2 class="section-title">My Skills</h2>
+                <h2 class="section-title">Capabilities</h2>
                 <div class="skills-grid">
                     <div class="skill-card">
-                        <i class="fab fa-java skill-icon"></i>
-                        <h3>Java & C++</h3>
+                        <div class="skill-header">
+                            <i class="fab fa-react skill-icon"></i>
+                            <h3>Frontend & Mobile</h3>
+                        </div>
+                        <p>React.js, Next.js, React Native (Expo), Tailwind CSS, Framer Motion.</p>
                     </div>
                     <div class="skill-card">
-                        <i class="fab fa-python skill-icon"></i>
-                        <h3>Python</h3>
+                        <div class="skill-header">
+                            <i class="fab fa-node-js skill-icon"></i>
+                            <h3>Backend & APIs</h3>
+                        </div>
+                        <p>Node.js, Express.js, RESTful APIs, System Architecture.</p>
                     </div>
                     <div class="skill-card">
-                        <i class="fab fa-js skill-icon"></i>
-                        <h3>JavaScript & TS</h3>
+                        <div class="skill-header">
+                            <i class="fas fa-database skill-icon"></i>
+                            <h3>Databases</h3>
+                        </div>
+                        <p>PostgreSQL, MongoDB, Supabase, SQLite.</p>
                     </div>
                     <div class="skill-card">
-                        <i class="fab fa-react skill-icon"></i>
-                        <h3>React & Native</h3>
-                    </div>
-                    <div class="skill-card">
-                        <i class="fab fa-node-js skill-icon"></i>
-                        <h3>Node.js</h3>
-                    </div>
-                    <div class="skill-card">
-                        <i class="fas fa-database skill-icon"></i>
-                        <h3>SQL & NoSQL</h3>
+                        <div class="skill-header">
+                            <i class="fas fa-code skill-icon"></i>
+                            <h3>Core Languages</h3>
+                        </div>
+                        <p>Java, C++, Python, JavaScript, TypeScript, SQL, C.</p>
                     </div>
                 </div>
             </div>
@@ -91,46 +93,55 @@
 
         <section id="projects" class="projects section">
             <div class="container">
-                <h2 class="section-title">Featured Projects</h2>
-                <div class="projects-grid">
-                    <article class="project-card">
-                        <div class="project-content">
+                <h2 class="section-title">Selected Work</h2>
+                <div class="projects-list">
+                    <article class="project-item">
+                        <div class="project-info">
                             <h3>Fraud Ring Detection & Graph Analytics</h3>
-                            <p>Designed a graph-based fraud detection model linking customers, accounts, and transactions to detect synthetic identities and mule-account chains.</p>
+                            <p>Designed a graph-based fraud detection model linking customers, accounts, and transactions to detect synthetic identities and mule-account chains via multi-hop links.</p>
                             <ul class="tech-stack">
                                 <li>Microsoft Fabric</li>
                                 <li>Fabric Ontology</li>
                             </ul>
                         </div>
+                        <div class="project-meta">
+                            <span class="project-date">Aug 2026</span>
+                        </div>
                     </article>
                     
-                    <article class="project-card">
-                        <div class="project-content">
+                    <article class="project-item">
+                        <div class="project-info">
                             <h3>PitchForge AI</h3>
-                            <p>Built an AI platform that converts a project README into audience-specific pitch decks with AI-assisted editing and blockchain-gated PPT export.</p>
+                            <p>Built an AI platform converting a project README into audience-specific pitch decks with AI-assisted editing. Integrated Algorand x402 to gate PPT export behind blockchain-based payment authorization.</p>
                             <ul class="tech-stack">
                                 <li>React</li>
                                 <li>Node.js</li>
                                 <li>Gemini API</li>
-                                <li>Algorand</li>
+                                <li>Algorand x402</li>
                             </ul>
+                        </div>
+                        <div class="project-meta">
+                            <span class="project-date">Sep 2026</span>
                             <div class="project-links">
-                                <a href="https://github.com/Revanth-432" class="btn btn-small btn-outline" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i> Source</a>
+                                <a href="https://github.com/Revanth-432" target="_blank" rel="noopener noreferrer" class="link-btn"><i class="fab fa-github"></i> Repository</a>
                             </div>
                         </div>
                     </article>
 
-                    <article class="project-card">
-                        <div class="project-content">
+                    <article class="project-item">
+                        <div class="project-info">
                             <h3>CampusGig Marketplace</h3>
-                            <p>Led a team to build a cross-platform gig marketplace for students. Architected a shared codebase for Android, iOS, and web with 95% code reuse.</p>
+                            <p>Led a 4-member team to build a cross-platform gig marketplace for students. Architected a shared codebase for Android, iOS, and web with 95% code reuse and real-time updates.</p>
                             <ul class="tech-stack">
                                 <li>React Native</li>
                                 <li>Expo</li>
                                 <li>Supabase</li>
                             </ul>
+                        </div>
+                        <div class="project-meta">
+                            <span class="project-date">Feb 2026</span>
                             <div class="project-links">
-                                <a href="https://github.com/Revanth-432" class="btn btn-small btn-outline" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i> Source</a>
+                                <a href="https://github.com/Revanth-432" target="_blank" rel="noopener noreferrer" class="link-btn"><i class="fab fa-github"></i> Repository</a>
                             </div>
                         </div>
                     </article>
@@ -140,14 +151,14 @@
 
         <section id="contact" class="contact section">
             <div class="container">
-                <h2 class="section-title">Get In Touch</h2>
+                <h2 class="section-title">Contact</h2>
                 <div class="contact-content">
-                    <p>I'm always open to discussing new projects, creative ideas, or opportunities to be part of your visions.</p>
-                    <a href="mailto:aluvala.revanth1404@gmail.com" class="btn btn-primary btn-large">Say Hello</a>
+                    <p>Interested in collaborating or have a question? Let's connect.</p>
+                    <a href="mailto:aluvala.revanth1404@gmail.com" class="btn btn-primary">aluvala.revanth1404@gmail.com</a>
                     
                     <div class="social-links">
-                        <a href="https://github.com/Revanth-432" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fab fa-github"></i></a>
-                        <a href="https://linkedin.com/in/revanth-d1" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://github.com/Revanth-432" target="_blank" rel="noopener noreferrer" aria-label="GitHub">GH.</a>
+                        <a href="https://linkedin.com/in/revanth-d1" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">IN.</a>
                     </div>
                 </div>
             </div>
@@ -156,7 +167,7 @@
 
     <footer>
         <div class="container">
-            <p>&copy; 2026 Aluvala Revanth. Built with <i class="fas fa-heart"></i> and code.</p>
+            <p>&copy; 2026 Aluvala Revanth.</p>
         </div>
     </footer>
 
